@@ -1,10 +1,12 @@
 def greet():
     print("  Hello! ")
-    print(" Let's play ")
-    print(" The game! ")
+    print("Let's play ")
+    print(" the game ")
+    print("Tic Tac Toe! ")
     print("------------ ")
-    print("  Input format ")
-    print("We use numbers in range 0, 1, 2")
+    print(" Input format ")
+    print("We use numbers")
+    print("in range 0, 1, 2")
     print(" a - string ")
     print(" b - column ")
     print("------------ ")
@@ -28,7 +30,7 @@ def ask():
     while True:
         print("ATTENTION!")
         print("We use numbers in range 0, 1, 2")
-        cords=input("Your turn:").split()
+        cords=input("Your turn  (a, b):").split()
         if len(cords) != 2:
             print("We need 2 numbers")
             continue
@@ -87,5 +89,5 @@ while True:
         break
 
     if count == 9:
-        print("finish")
+        print("friendship won!:)")
         break
